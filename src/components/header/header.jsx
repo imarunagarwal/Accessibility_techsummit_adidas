@@ -13,18 +13,10 @@ export const Header = () => (
           { id: 2, text: "About", url: "/about" },
           { id: 3, text: "Contact", url: "/contact" },
           { id: 4, text: "Products", url: "/dummy" },
-          { id: 5, text: "Cart", url: "/dummy" },
-          { id: 6, text: "Hot Deals", url: "/dummy" },
+          { id: 5, text: "Cart", url: "/dummy1" },
+          { id: 6, text: "Hot Deals", url: "/dummy2" },
         ]}
       />
-      <div className={styles.dropdown}>
-        <button className={styles.dropbtn}>Dropdown</button>
-        <div className={styles.dropdownContent}>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
     </div>
     <MiniCart />
   </div>

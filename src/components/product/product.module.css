@@ -8,6 +8,7 @@
   justify-content: space-between;
   box-shadow: 0 2px 5px 2px rgb(0 0 0 / 10%);
 }
+
 .container::after {
   width: 1px;
   position: absolute;
@@ -21,24 +22,27 @@
   border-radius: 50%;
   transform: translateY(-50%);
 }
+
 .heading {
   height: 70px;
   font-size: 1.2rem;
   font-weight: 600; 
   overflow: hidden;
 }
+
 .image {
   max-width: 100%;
 }
+
 .description {
   font-size: 0.8rem;
   padding: 0.4rem;
 }
-.moreinfo {
-}
+
 .price {
   font-weight: 600;
 }
+
 .buynow {
   display: inline-block;
   vertical-align: middle;
@@ -55,11 +59,13 @@
   background-color: var(--color-primary-200);
   color: var(--color-neutral-900);
   max-width: 80%;
-  min-width: 125px;
+  min-width: 40px;
 }
+
 .buynow:hover {
   background-color: var(--color-primary-100);
 }
+
 .icon {
   height: 2rem;
   width: 2rem;
