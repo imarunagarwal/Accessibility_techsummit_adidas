@@ -1,0 +1,27 @@
+.footerMenu{
+  display: flex;
+  justify-content: space-around;
+  font-weight: var(--font-weight-bold);
+  background-color: var(--color-neutral-800);
+}
+
+.footerMenu{
+  display: flex;
+}
+
+.footerMenu > div{
+  display: flex;
+}
+
+.footerMenu > div> div {
+  padding-right: 10px;
+}
+
+.footerMenu div div a{
+  color: var(--color-neutral-300);
+  text-decoration: none;
+}
+
+.footerMenu div div a:hover{
+  color: var(--color-primary-200);
+}

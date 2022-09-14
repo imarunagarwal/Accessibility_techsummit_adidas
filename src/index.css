@@ -1,0 +1,48 @@
+:root {
+  --shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+  --font-family: Dosis, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+  --font-weight-heavy: 700;
+
+  --color-neutral-100: #000000;
+  --color-neutral-200: #4f4f4f;
+  --color-neutral-300: #777777;
+  --color-neutral-500: #979797;
+  --color-neutral-700: #cccccc;
+  --color-neutral-800: #eaeaea;
+  --color-neutral-900: #ffffff;
+
+  --color-primary-100: #af0148;
+  --color-primary-200: #d00256;
+
+  --color-secondary-100: #47c2c9;
+  --color-secondary-200: #50dae3;
+
+  --color-info-100: #74bfdd;
+  --color-info-200: #a0d3e8;
+  --color-success-100: #3a945b;
+  --color-success-200: #43ac6a;
+  --color-error-100: #de2d0f;
+  --color-error-200: #f04124;
+}
+
+:focus {
+  outline: 5px solid black;
+}
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}

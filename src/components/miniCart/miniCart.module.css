@@ -1,0 +1,11 @@
+.container {
+  background: var(--color-neutral-800);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icon {
+  height: 2rem;
+  width: 2rem;
+  fill: var(--color-primary-200);
+}

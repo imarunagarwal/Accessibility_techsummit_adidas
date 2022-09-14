@@ -1,0 +1,4 @@
+.container {
+  min-width: 200px;
+  background: var(--color-neutral-800);
+}
