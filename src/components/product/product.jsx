@@ -9,7 +9,7 @@ export const Product = ({ product }) => {
       <p className={styles.description}>{product.description}</p>
       <div className={styles.moreinfo}>
         <p className={styles.price}>MRP Rs.{product.price}</p>
-        <div className={styles.buynow}>
+        <div tabIndex="0" className={styles.buynow}>
           <CartIcon className={styles.icon} />
         </div>
       </div>
